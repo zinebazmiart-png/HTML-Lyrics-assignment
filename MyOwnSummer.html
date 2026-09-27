@@ -10,7 +10,7 @@
         <meta name = "robots" content="no follow, no index">
     </head>
     <body>
-        <main>
+            <main>
                 <!-- The main holds the primary information of the page. There is only one, and it should not contain elements that a repeated across pages -->
                 <section>
                     <!--I used a section to hold all of the lyrics and because they are all the same content and a section must have a heading -->
@@ -21,7 +21,7 @@
                         </div> 
                         
                         <div>
-                            <!--This div will hold our image-->
+                            <!--This div will hold our image.-->
                             <figure>
                              <!-- Here i've put our image and added the alt text that describes what the image is-->
                              <img src="./Media/img/DeftonsAlbum.png" alt="Cover Image of Deftone's Album - Hexagram">
@@ -90,7 +90,7 @@
                         </div>
                 </section>        
                 <section>
-                        <!--This Section will hold our music video-->
+                        <!--This Section will hold our music video. W3C flags iFrame usage as a warning, and suggest using CSS.-->
                         <div>
                             <h3>The Music Video</h3>
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/XOzs1FehYOA?si=Q8pp5_Fi-Vkf0W5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -106,10 +106,11 @@
                             <button type="submit">Submit</button>
                         </form>
                 </section>
-        </main>     
-        <!-- The footer is a container for information that is repeated across pages. In this case, I added copy right information. -->
-        <footer>
-            <h6>&copy; Music and Video by Deftones</h6>
-        </footer>
+            </main>     
+            <!-- The footer is a container for information that is repeated across pages. In this case, I added copy right information. -->
+            <footer>
+            <!-- I used an H6 instead of following the hierarchy as you've shown in examples in class, but it does flag up as an error on W3C.-->
+                <h6>&copy; Music and Video by Deftones</h6>
+            </footer>
     </body>              
 </html>
